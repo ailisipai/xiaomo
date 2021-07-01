@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xiaomo-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaomo-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaomo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaomo-servier/pom.xml" />
       </list>
     </option>
   </component>

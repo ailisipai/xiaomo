@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9387fead-f846-487a-83cd-b686746449b1" name="Default Changelist" comment="xiaomo">
+    <list default="true" id="9387fead-f846-487a-83cd-b686746449b1" name="Default Changelist" comment="xiaomo:eureka 服务端创建">
+      <change afterPath="$PROJECT_DIR$/../springCloudDemo001/springCloudDemo001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/src/main/java/com/xiaomo/wpp/XiaomoAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-admin/src/test/java/com/xiaomo/wpp/XiaomoAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/src/main/java/com/xiaomo/api/XiaomoFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaomo-feign/src/test/java/com/xiaomo/api/XiaomoFeignApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaomo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomo-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomo-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomo-eureka/src/main/java/com/xiaomo/wpp/XiaomoEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomo-eureka/src/main/java/com/xiaomo/wpp/XiaomoEurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomo-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomo-admin/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,21 +44,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/javatools/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\javatools\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1uiIJIq62WlZvwVXu7PClt8FbBU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.XiaomoEurekaApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -40,6 +79,34 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaomoAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaomo-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaomo.wpp.XiaomoAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaomoEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaomo-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaomo.wpp.XiaomoEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaomoFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaomo-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaomo.api.XiaomoFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XiaomoServierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaomo-servier" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaomo.wpp.XiaomoServierApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -53,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625141912020</updated>
-      <workItem from="1625141913285" duration="355000" />
+      <workItem from="1625141913285" duration="2628000" />
     </task>
     <task id="LOCAL-00001" summary="xiaomo">
       <created>1625141982289</created>
@@ -62,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625141982289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="xiaomo:eureka 服务端创建">
+      <created>1625142354587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625142354587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +154,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="xiaomo" />
-    <option name="LAST_COMMIT_MESSAGE" value="xiaomo" />
+    <MESSAGE value="xiaomo:eureka 服务端创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiaomo:eureka 服务端创建" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

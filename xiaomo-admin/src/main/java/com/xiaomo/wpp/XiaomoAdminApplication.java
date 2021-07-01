@@ -2,13 +2,12 @@ package com.xiaomo.wpp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableEurekaServer
 @SpringBootApplication
-public class XiaomoEurekaApplication {
+public class XiaomoAdminApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(XiaomoEurekaApplication.class, args);
+        SpringApplication.run(XiaomoAdminApplication.class, args);
     }
+
 }

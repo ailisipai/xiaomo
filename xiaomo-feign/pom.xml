@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xiaomo</groupId>
-    <artifactId>xiaomo-eureka</artifactId>
+    <artifactId>xiaomo-feign</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>xiaomo-eureka</name>
-    <description>eureka 服务端</description>
+    <name>xiaomo-feign</name>
+    <description>xiaomo feign</description>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2020.0.3</spring-cloud.version>
@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <dependency>
@@ -28,7 +28,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!--配置热部署依赖-->
     </dependencies>
     <dependencyManagement>
         <dependencies>
